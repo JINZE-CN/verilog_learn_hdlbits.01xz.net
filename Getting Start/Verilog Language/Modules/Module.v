@@ -1,4 +1,4 @@
-/////////////////////////以上是学到的/////////////////////////
+/////////////////////////以下是学到的/////////////////////////
 // Status: Incorrect
 // Compile and simulation succeeded, but the circuit's output wasn't entirely correct. The hints below may help.
 
