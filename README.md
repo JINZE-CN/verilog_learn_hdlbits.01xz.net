@@ -3,3 +3,6 @@
 
 
 记录一下verilog学习
+
+网站链接
+https://hdlbits.01xz.net/
