@@ -20,6 +20,9 @@ always @(posedge clk ) begin
     end
     tc=!counters;
 end
+// assign tc=!counters; 这样写 vivado 会报错，但是在hdlbits可以跑
+// You cannot drive a reg type via a continuous assignment (only a wire may be driven in this way). If this is just modelling combinatorial logic, you could use a combinatorial always block: always @* begin mem [in_d0_] = in_d1_; end
+
 
 
 endmodule
